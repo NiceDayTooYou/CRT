@@ -8,17 +8,17 @@ const USER = "dennis";
 async function boot() {
 	clear();
 
-	await type("Welcome to the DATABASE(TM) terminal", {
+	await type("欢迎来到这个页面/WELCOME TO THIS PAGE(TM) LI YONG", {
 		initialWait: 3000
 	});
 
-	await type(["> SET TERMINAL/BOOT", "Loading........................"], {
+	await type(["> 终端正在启动中/SET TERMINAL/BOOT", "加载/Loading........................"], {
 		lineWait: 1000
 	});
 	await type(
 		[
 			".....",
-			"Please wait........",
+			"请稍等/Please wait........",
 			"..........",
 			"...",
 			".",
@@ -30,16 +30,16 @@ async function boot() {
 		{ lineWait: 250 }
 	);
 
-	await type(["OK.", " "]);
+	await type(["已完成/OK.", " "]);
 
-	await type(["> SET TERMINAL/LOGON", "USER AUTHENTICATION CHECK"], {
+	await type(["> 设置终端/登录/SET TERMINAL/LOGON", "用户身份验证检查/USER AUTHENTICATION CHECK"], {
 		lineWait: 1000,
 		finalWait: 3000
 	});
 
 	await type([".", ".", ".", "."], { lineWait: 150 });
 
-	await type(["ACCESS GRANTED.", "WELCOME, ADMINISTRATOR."], {
+	await type(["授予访问权限/ACCESS GRANTED.", "欢迎/WELCOME, 管理员/ADMINISTRATOR."], {
 		lineWait: 1000,
 		finalWait: 3000
 	});
@@ -51,7 +51,7 @@ async function boot() {
 /** Login screen */
 async function login() {
 	clear();
-	let user = await prompt("Enter the Name:");
+	let user = await prompt("输入姓名/Enter the Name:");
 
 	if (user === USER) {
 		await pause();
@@ -59,7 +59,7 @@ async function login() {
 		clear();
 		return main();
 	} else {
-		await type(["User Does Not Exist.", "Please try again"]);
+		await type(["用户不存在/User Does Not Exist.", "请再试一次/Please try again"]);
 		await pause(3);
 		clear();
 		return login();
@@ -70,7 +70,7 @@ async function login() {
 async function main() {
 	let command = await input();
 	try {
-		await parse(command);
+		await parse(命令/command);
 	} catch (e) {
 		if (e.message) await type(e.message);
 	}
