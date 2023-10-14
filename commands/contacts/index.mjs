@@ -2,17 +2,17 @@
 
 const output = [
   " ",
-  "Email:dennisjojo052001@gmail.com",
+  "Email:nicedaytoooyou@gmail.com",
   " ",
-  "Github:https://github.com/atmozki",
+  "Github:https://github.com/NiceDayTooYou",
   " ",
-  "LinkedIn:http://linkedin.com/in/dennisjk",
+  "Youtube:https://youtube.com/@serendipityniceday",
   " ",
-  "Twitter:http://twitter.com/dennisjojok",
+  "Twitter:https://twitter.com/NiceDayTooYou",
   " ",
-  "Instagram:https://www.instagram.com/____iamdj____/",
+  "Instagram:https://www.instagram.com/serendipityniceday",
   " ",
-  "dev.to:https://dev.to/atmozki",
+  "Facebook:https://www.facebook.com/100087409027814",
   " ",
 ];
 
