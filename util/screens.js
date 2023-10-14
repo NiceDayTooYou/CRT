@@ -2,7 +2,7 @@ import { parse, type, prompt, input } from "./io.js";
 import pause from "./pause.js";
 import alert from "./alert.js";
 
-const USER = "dennis";
+const USER = "LIYONG";
 
 /** Boot screen */
 async function boot() {
@@ -51,11 +51,11 @@ async function boot() {
 /** Login screen */
 async function login() {
 	clear();
-	let user = await prompt("输入姓名/Enter the Name:");
+	let user = await prompt("输入姓名:LIYONG 登录/Enter the Name:LIYONG");
 
 	if (user === USER) {
 		await pause();
-		await alert("用户已找到/USER FOUND");
+		await alert("用户已找到，输入help获取帮助/USER FOUND");
 		clear();
 		return main();
 	} else {
@@ -70,7 +70,7 @@ async function login() {
 async function main() {
 	let command = await input();
 	try {
-		await parse(命令/command);
+		await parse(command);
 	} catch (e) {
 		if (e.message) await type(e.message);
 	}
