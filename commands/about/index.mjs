@@ -2,17 +2,17 @@
 
 const output = [
   " ",
-  "This is an interactive terminal based concept portfolio.",
+  "这是一个基于交互式终端的概念网站.",
   " ",
-  "This project is based on Edwin Keijl's Retro CRT terminal screen.",
+  "This is a concept website based on an interactive terminal.",
   " ",
-  "The project is open source and can be found at my Github profile.",
+  "我叫LIYONG，很高兴你能找到这个页面.",
   " ",
-  "This project is build using HTML, CSS, JavaScript.",
+  "My name is LIYONG, I'm glad you found this page.",
   " ",
-  "Thanks to Edwin Keijl for the inspiration :).",
+  "希望所有人都能够开心快乐的生活在这个世界上，即使很难 :).",
   " ",
-  "Thanks for visiting this project.",
+  "I hope that everyone can live happily in this world, even if it is difficult.",
   " ",
 ];
 
