@@ -2,7 +2,7 @@ import { parse, type, prompt, input } from "./io.js";
 import pause from "./pause.js";
 import alert from "./alert.js";
 
-const USER = "dennis";
+const USER = "liyong";
 
 /** Boot screen */
 async function boot() {
@@ -55,7 +55,7 @@ async function login() {
 
 	if (user === USER) {
 		await pause();
-		await alert("USER FOUND");
+		await alert("用户已找到/USER FOUND");
 		clear();
 		return main();
 	} else {
