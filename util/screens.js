@@ -2,7 +2,7 @@ import { parse, type, prompt, input } from "./io.js";
 import pause from "./pause.js";
 import alert from "./alert.js";
 
-const USER = "LIYONG";
+const USER = "liyong";
 
 /** Boot screen */
 async function boot() {
