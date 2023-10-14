@@ -2,17 +2,17 @@
 
 const output = [
   " ",
-  "Name: Dennis Jojo Kuriakose",
+  "Name: Li Yong",
   " ",
-  "Codename: atmozki",
+  "Codename: Serendipity",
   " ",
-  "Email: dennisjojo052001@gmail.com",
+  "Email: nicedaytoooyou@gmail.com",
   " ",
-  "Phone: REDACTED",
+  "website: https://www.liyong.online",
   " ",
-  "Address: REDACTED, KERALA, INDIA",
+  "Address: Hubei, People's Republic of China",
   " ",
-  "This an interactive terminal based concept portfolio.",
+  "热爱生活，知足常乐.",
   " ",
 ];
 
